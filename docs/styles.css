@@ -1,0 +1,10 @@
+ul li{
+    list-style: none;
+}
+
+nav li{
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px;
+    background-color: seagreen;
+}
