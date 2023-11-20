@@ -5,17 +5,17 @@
     data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAYAAADEUlfTAAAAAXNSR0IArs4c6QAAABxJREFUGFdjXHRv8X8GHIARJBmnFMuITX7QSQIAq38bKmG2hDAAAAAASUVORK5CYII=
        ) repeat;
        }
-   
 
-h1{
-    background-color: lightpink;
-    font-family: 'Kaisei Decol', serif;
-}
+    
+#test {
+    display: grid;
+    place-items: center;
+}   
 
 ul li{
     display: inline-block;
     justify-content: center;
-    margin: 10px 0 0;
+    margin: 15px 0 0;
     padding: 5px 5px;
 }
 
