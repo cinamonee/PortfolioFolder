@@ -1,10 +1,58 @@
-ul li{
-    list-style: none;
+
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Decol&display=swap');
+
+.Test{  background:url(
+    data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAYAAADEUlfTAAAAAXNSR0IArs4c6QAAABxJREFUGFdjXHRv8X8GHIARJBmnFMuITX7QSQIAq38bKmG2hDAAAAAASUVORK5CYII=
+       ) repeat;
+       }
+   
+
+h1{
+    background-color: lightpink;
+    font-family: 'Kaisei Decol', serif;
 }
 
-nav li{
-    text-decoration: none;
-    color: white;
-    padding: 10px 10px;
-    background-color: seagreen;
+ul li{
+    display: inline-block;
+    justify-content: center;
+    margin: 10px 0 0;
+    padding: 5px 5px;
 }
+
+nav ul{
+    list-style: none;
+    background-color: seagreen;
+    padding: 1em 4em 1em 4em;
+    text-decoration: none;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+    padding: 10px;
+  }
+
+  a:hover {
+    color: rgb(227, 95, 161);
+  }
+
+h2{
+    font-family: 'Kaisei Decol', serif; 
+}
+
+::selection
+
+h3{
+    font-family: 'Kaisei Decol', serif; 
+    background-color: rgb(116, 193, 116)
+}
+
+ol{}
+
