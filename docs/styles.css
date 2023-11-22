@@ -1,13 +1,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Kaisei+Decol&display=swap');
 
-.Test{  background:url(
+#Test{  background:url(
     data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAYAAADEUlfTAAAAAXNSR0IArs4c6QAAABxJREFUGFdjXHRv8X8GHIARJBmnFMuITX7QSQIAq38bKmG2hDAAAAAASUVORK5CYII=
        ) repeat;
        }
 
     
-#test {
+#Test {
     display: grid;
     place-items: center;
 }   
@@ -21,7 +21,7 @@ ul li{
 
 nav ul{
     list-style: none;
-    background-color: seagreen;
+    background-color: rgb(61, 120, 60);
     padding: 1em 4em 1em 4em;
     text-decoration: none;
 }
@@ -65,4 +65,23 @@ a:hover, a:active {
     background-color: rgb(231, 148, 190);
   }
 
+  tr:hover {background-color: rgb(237, 152, 186);} 
+  
+  table, th, td {
+    padding: 10px;
+    border: 1px solid;
+    border-color: olivedrab;
+    
+}
+th {
+    font-weight: bolder;
+    background-color: rgb(138, 208, 138);
+    }
+
+#Contact {
+    display: grid;
+    place-items: center ;
+    padding: 5px 5px;
+    background-color: rgb(138, 208, 138)
+}
 
