@@ -5,15 +5,15 @@
     data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAYAAADEUlfTAAAAAXNSR0IArs4c6QAAABxJREFUGFdjXHRv8X8GHIARJBmnFMuITX7QSQIAq38bKmG2hDAAAAAASUVORK5CYII=
        ) repeat;
        }
-
     
 #Test {
     display: grid;
     place-items: center;
 }   
+/*Website header*/
 
 ul li{
-    display: inline-block;
+    display: inline-flex;
     justify-content: center;
     margin: 15px 0 0;
     padding: 5px 5px;
@@ -39,10 +39,14 @@ nav a{
     padding: 10px;
   }
 
+.listmedia  { @media screen and (max-width: 300px)}
+
+
+
   a:hover {
     color: rgb(227, 95, 161);
   }
-
+/*I like the color choices for my hover*/
 h2{
     font-family: 'Kaisei Decol', serif; 
 }
@@ -65,6 +69,8 @@ a:hover, a:active {
     background-color: rgb(231, 148, 190);
   }
 
+
+
   tr:hover {background-color: rgb(237, 152, 186);} 
   
   table, th, td {
@@ -80,8 +86,10 @@ th {
 
 #Contact {
     display: grid;
-    place-items: center ;
+    place-items: center;
     padding: 5px 5px;
     background-color: rgb(138, 208, 138)
 }
+
+/*the contact information section could use more work*/
 
