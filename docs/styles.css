@@ -39,14 +39,17 @@ nav a{
     padding: 10px;
   }
 
-.listmedia  { @media screen and (max-width: 300px)}
-
-
+.listmedia{ @media screen and (max-width: 400px)
+    display: block;
+    justify-content: center;
+    padding: 5px;
+}
 
   a:hover {
     color: rgb(227, 95, 161);
   }
-/*I like the color choices for my hover*/
+
+/*Headings*/
 h2{
     font-family: 'Kaisei Decol', serif; 
 }
@@ -69,9 +72,12 @@ a:hover, a:active {
     background-color: rgb(231, 148, 190);
   }
 
+ tr:hover {background-color: rgb(237, 152, 186);} 
 
-
-  tr:hover {background-color: rgb(237, 152, 186);} 
+ th {
+    background-color: rgb(138, 208, 138);
+ }
+ 
   
   table, th, td {
     padding: 10px;
@@ -79,10 +85,6 @@ a:hover, a:active {
     border-color: olivedrab;
     
 }
-th {
-    font-weight: bolder;
-    background-color: rgb(138, 208, 138);
-    }
 
 #Contact {
     display: grid;
@@ -90,6 +92,4 @@ th {
     padding: 5px 5px;
     background-color: rgb(138, 208, 138)
 }
-
-/*the contact information section could use more work*/
 
