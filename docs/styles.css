@@ -40,15 +40,10 @@ nav a{
   }
 
 .listmedia {
-    @media only screen and (max-width: 400px) {
+    @media screen and (max-width: 300px) {
         /*for mobile phones*/
-        display: block;
     }
 }
-
-
-
-
 
   a:hover {
     color: rgb(227, 95, 161);
