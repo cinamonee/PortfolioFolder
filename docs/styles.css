@@ -39,11 +39,16 @@ nav a{
     padding: 10px;
   }
 
-.listmedia{ @media screen and (max-width: 400px)
-    display: block;
-    justify-content: center;
-    padding: 5px;
+.listmedia {
+    @media only screen and (max-width: 400px) {
+        /*for mobile phones*/
+        display: block;
+    }
 }
+
+
+
+
 
   a:hover {
     color: rgb(227, 95, 161);
@@ -66,7 +71,6 @@ a:link, a:visited {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-
 }
 a:hover, a:active {
     background-color: rgb(231, 148, 190);
@@ -83,8 +87,7 @@ a:hover, a:active {
     padding: 10px;
     border: 1px solid;
     border-color: olivedrab;
-    
-}
+    }
 
 #Contact {
     display: grid;
