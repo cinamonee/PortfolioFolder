@@ -83,10 +83,29 @@ a:hover, a:active {
     border-color: olivedrab;
     }
 
-#Contact {
+section#Contact {
     display: grid;
     place-items: center;
-    padding: 5px 5px;
+    padding: 1em 4em;
     background-color: rgb(138, 208, 138)
 }
 
+section#foot {
+    display: grid;
+    place-items: center;
+}
+
+.display_flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.odd{
+    color: green;
+}
+
+.even{
+    color: pink;
+}
