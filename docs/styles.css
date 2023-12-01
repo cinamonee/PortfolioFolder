@@ -1,6 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Kaisei+Decol&display=swap');
 
+html{
+    scroll-behavior: smooth;
+}
+
 #Test{  background:url(
     data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAYAAADEUlfTAAAAAXNSR0IArs4c6QAAABxJREFUGFdjXHRv8X8GHIARJBmnFMuITX7QSQIAq38bKmG2hDAAAAAASUVORK5CYII=
        ) repeat;
@@ -111,9 +115,9 @@ section#foot {
 }
 
 .Even{
-    color:lightskyblue;
+    color:rgb(68, 123, 78);
 }
 
 .Odd{
-    color: lavender;
+    color: rgb(216, 146, 224);
 }
