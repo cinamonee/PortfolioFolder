@@ -109,3 +109,11 @@ section#foot {
 .even{
     color: pink;
 }
+
+.Even{
+    color:lightskyblue;
+}
+
+.Odd{
+    color: lavender;
+}
