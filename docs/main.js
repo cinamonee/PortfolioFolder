@@ -50,5 +50,8 @@ let greetings = "Hello World"
             const listitems = document.createElement ('li')
             const even = i % 2 == 0
             listitems.innerHTML = even ? "Even" : "Odd"
+            numberlist.appendChild(listitems)
 
+            if(even) listitems.classList.add("Even")
+            else listitems.classList.add("Odd")
         }
